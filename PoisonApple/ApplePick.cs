@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace PoisonApple
 {
 
-    class ApplePick
+    public class ApplePick
     {
-        private IEnumerable<Apple> PickApples()
+        public IEnumerable<Apple> PickApples()
         {
             int colourIndex = 1;
             int poisonIndex = 7;
